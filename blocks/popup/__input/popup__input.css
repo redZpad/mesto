@@ -1,7 +1,8 @@
 .popup__input{
     width: 358px;
+    height: 38px;
     box-sizing: border-box;
-    margin: 0 36px;
+    margin: 0 36px 18px 36px;
     border-style: none;
     padding: 0;
     font-weight: 400;
@@ -10,6 +11,7 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
 }
 
 .popup__input:focus{
@@ -18,7 +20,8 @@
 
 @media (max-width: 550px) {
     .popup__input {
+        height: 36px;
         width: 238px;
-        margin: 0 22px;
+        margin: 0 22px 20px 22px;
     }
 }

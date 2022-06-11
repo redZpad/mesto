@@ -6,11 +6,12 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: 22px 22px;
-    width: 150px;
+    min-width: 150px;
     height: 50px;
-    margin: 0 0 0 auto;
+    margin: 0;
     transition: opacity .2s ease-in-out;
     box-sizing: border-box;
+    margin-left: auto;
 }
 
 .profile__add-button:hover{
@@ -22,5 +23,6 @@
     .profile__add-button {
         width: 282px;
         margin: 0 auto 0 auto;
+        background-size: 16px 16px;
     }
 }
