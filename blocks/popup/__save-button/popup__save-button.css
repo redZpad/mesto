@@ -3,7 +3,7 @@
     height: 50px;
     background: #000000;
     border-radius: 2px;
-    margin: 48px auto auto auto;
+    margin: 32px auto 38px auto;
     box-sizing: border-box;
     display: flex;
     transition: opacity .2s ease-in-out;
@@ -26,5 +26,7 @@
         font-size: 14px;
         line-height: 17px;
         width: 238px;
+        margin: 24px auto 25px auto;
+        height: 46px;
     }
 }

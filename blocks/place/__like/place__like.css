@@ -1,10 +1,10 @@
 .place__like{
-    margin: 30px 20px 30px auto;
+    margin: 28px 20px 30px auto;
     background-image: url(../../../images/like_unaktive.svg);
     background-repeat: no-repeat;
     background-color: white;
     background-size: 22px 19px;
-    width: 26px;
+    min-width: 22px;
     height: 19px;
     transition: opacity .2s ease-in-out;
     border: none;
@@ -15,3 +15,8 @@
     opacity: 0.6;
 }
 
+@media (max-width: 700px) {
+    .place__like {
+        margin: 26px 20px 30px auto;
+    }
+}
