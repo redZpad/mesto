@@ -1,23 +1,22 @@
-.footer {
+.main {
     margin: 0 auto;
     max-width: 880px;
 }
 
 @media (max-width: 900px) {
-    .footer {
+    .main {
         max-width: calc(100% - 50px*2);
     }
 }
 
 @media (max-width: 720px) {
-    .footer {
+    .main {
         max-width: calc(100% - 25px*2);
     }
 }
 
 @media (max-width: 400px) {
-    .footer {
-        margin: 0 auto 36px auto;
+    .main {
         max-width: calc(100% - 19px*2);
     }
 }
