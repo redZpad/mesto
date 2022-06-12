@@ -1,4 +1,4 @@
-.place__like{
+.place__like-button {
     margin: 28px 20px 30px auto;
     background-image: url(../../../images/like_unaktive.svg);
     background-repeat: no-repeat;
@@ -10,13 +10,13 @@
     border: none;
 }
 
-.place__like:hover{
+.place__like-button:hover {
     cursor: pointer;
-    opacity: 0.6;
+    opacity: 0.5;
 }
 
 @media (max-width: 700px) {
-    .place__like {
+    .place__like-button {
         margin: 26px 20px 30px auto;
     }
 }

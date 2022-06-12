@@ -12,7 +12,7 @@
     box-sizing: border-box;
 }
 
-.profile__edit-button:hover{
+.profile__edit-button:hover {
     cursor: pointer;
     opacity: 0.6;
 }
@@ -22,6 +22,6 @@
         min-width: 18px;
         height: 18px;
         margin-left: 10px;
-        margin: 9px 0 0 10px;
+        margin: 9px 0 0 12px;
     }
 }
