@@ -7,13 +7,13 @@ let jobInput = formElement.querySelector('.popup__input_content_description');
 let title = document.querySelector('.profile__title');
 let subtitle = document.querySelector('.profile__subtitle');
 
-function openPopup(){
+function openPopup() {
     nameInput.value = title.textContent;
     jobInput.value = subtitle.textContent;
     popupForm.classList.add('popup_opened');
 }
 
-function closePopup(){
+function closePopup() {
     popupForm.classList.remove('popup_opened');
 }
 
